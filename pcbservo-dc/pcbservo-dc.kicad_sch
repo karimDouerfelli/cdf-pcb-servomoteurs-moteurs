@@ -2449,16 +2449,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 45.72) (xy 190.5 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cff1952c-1823-4e53-a651-8e29f69028a4")
-	)
-	(wire
-		(pts
 			(xy 114.3 189.23) (xy 114.3 190.5)
 		)
 		(stroke
@@ -3722,73 +3712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21a284f4-122f-4b61-9ba1-7e0dd33f31d0")
-		(property "Reference" "#PWR013"
-			(at 190.5 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8326271-9573-4cbe-bc35-151ac02fad84")
-		)
-		(instances
-			(project "pcbservo-dc"
-				(path "/be41f19f-3f75-42cb-bbbf-7251912cb437"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+7.5V")
 		(at 128.27 133.35 0)
 		(unit 1)
@@ -3921,74 +3844,6 @@
 			(project ""
 				(path "/be41f19f-3f75-42cb-bbbf-7251912cb437"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MountingHole_Pad_2")
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 182.88 45.72 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "301714eb-4557-43b2-8b03-c469e2779d28")
-		(property "Reference" "H3"
-			(at 181.61 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 182.8799 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62e80d8a-359b-4009-bae0-1c40c73112db")
-		)
-		(instances
-			(project "pcbservo-dc"
-				(path "/be41f19f-3f75-42cb-bbbf-7251912cb437"
-					(reference "H3")
 					(unit 1)
 				)
 			)
