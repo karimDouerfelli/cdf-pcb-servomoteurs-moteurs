@@ -2050,6 +2050,12 @@
 		(uuid "15d1b7f3-5959-4b6f-97c5-45c4257e2dd5")
 	)
 	(junction
+		(at 38.1 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf23d41-f65c-4c2a-9952-86ddd10777b5")
+	)
+	(junction
 		(at 118.11 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2062,6 +2068,12 @@
 		(uuid "26b7b857-b8e9-4189-bd44-1cf435a6bb55")
 	)
 	(junction
+		(at 29.21 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a50f9b1-1a1c-40f9-af7e-e3ea7b9b6607")
+	)
+	(junction
 		(at 83.82 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2072,6 +2084,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53d49331-8417-46c2-ba57-5c37f7bc9a63")
+	)
+	(junction
+		(at 31.75 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5586bb5c-dd05-465d-a292-c679c1924ff3")
 	)
 	(junction
 		(at 124.46 140.97)
@@ -2102,6 +2120,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86b73611-34d5-415b-b737-9a7241c423e0")
+	)
+	(junction
+		(at 30.48 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "904d0a38-41ef-4059-912f-37111d61b17f")
+	)
+	(junction
+		(at 38.1 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dfd3fc2-ac78-4423-ae34-f9a203809ca9")
+	)
+	(junction
+		(at 38.1 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a20ae3d1-2660-4632-8c3d-a987ed605f41")
 	)
 	(junction
 		(at 30.48 161.29)
@@ -2159,6 +2195,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 161.29) (xy 48.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa64f60-9530-425b-a53a-bd1f5f26a05a")
+	)
+	(wire
+		(pts
 			(xy 25.4 193.04) (xy 26.67 193.04)
 		)
 		(stroke
@@ -2176,6 +2222,16 @@
 			(type default)
 		)
 		(uuid "3524e6da-0c3b-4c87-b560-07f01bc3ac91")
+	)
+	(wire
+		(pts
+			(xy 31.75 144.78) (xy 38.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f71a44-3b80-4ac4-affa-9b587b251036")
 	)
 	(wire
 		(pts
@@ -2319,6 +2375,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 161.29) (xy 38.1 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93657f36-dfe2-48d1-85f4-f73c497a2f91")
+	)
+	(wire
+		(pts
 			(xy 111.76 190.5) (xy 114.3 190.5)
 		)
 		(stroke
@@ -2326,6 +2392,16 @@
 			(type default)
 		)
 		(uuid "9ce8b9de-813b-4c83-a957-9014abf291c5")
+	)
+	(wire
+		(pts
+			(xy 29.21 193.04) (xy 38.1 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db33860-dbaf-41ed-b0be-7fc9efe1fbde")
 	)
 	(wire
 		(pts
@@ -2449,6 +2525,36 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 137.16) (xy 38.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01868c7-044a-4081-b718-e4c9b6912b5a")
+	)
+	(wire
+		(pts
+			(xy 38.1 185.42) (xy 46.99 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a424e7-00ed-4fe5-a19c-60eed7c5230a")
+	)
+	(wire
+		(pts
+			(xy 30.48 168.91) (xy 38.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7de28bd-beac-4f3e-9bb3-90a283132bd8")
+	)
+	(wire
+		(pts
 			(xy 114.3 189.23) (xy 114.3 190.5)
 		)
 		(stroke
@@ -2459,6 +2565,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 137.16) (xy 48.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22fb566-188e-48a2-989d-ab8f2bd7e965")
+	)
+	(wire
+		(pts
 			(xy 111.76 133.35) (xy 114.3 133.35)
 		)
 		(stroke
@@ -2466,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "f4a58ade-56ca-46d8-bf13-5e11981216e0")
+	)
+	(wire
+		(pts
+			(xy 29.21 185.42) (xy 38.1 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b9cfcd-6f9c-4a7e-91ae-f9cd5d058527")
 	)
 	(wire
 		(pts
@@ -2639,7 +2765,7 @@
 	)
 	(global_label "Alim_servo3"
 		(shape input)
-		(at 44.45 185.42 0)
+		(at 54.61 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2649,7 +2775,7 @@
 		)
 		(uuid "4ec34bba-e187-45d3-9bc8-571818ee6469")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.6837 185.42 0)
+			(at 68.8437 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +3103,7 @@
 	)
 	(global_label "Alim_servo1"
 		(shape input)
-		(at 46.99 137.16 0)
+		(at 55.88 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2987,7 +3113,7 @@
 		)
 		(uuid "b342e864-323f-4b42-b210-11dda6cef64c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.2237 137.16 0)
+			(at 70.1137 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3339,7 @@
 	)
 	(global_label "Alim_servo2"
 		(shape input)
-		(at 45.72 161.29 0)
+		(at 55.88 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3223,7 +3349,7 @@
 		)
 		(uuid "f8c5f65f-6c49-433c-98c2-7e4832eda989")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.9537 161.29 0)
+			(at 70.1137 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4115,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 41.91 161.29 0)
+		(at 52.07 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3998,7 +4124,7 @@
 		(fields_autoplaced yes)
 		(uuid "4beeb952-aa16-4f60-a295-53b9303c0ee8")
 		(property "Reference" "D3"
-			(at 41.5925 154.94 0)
+			(at 51.7525 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,15 +4132,15 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 41.5925 157.48 0)
+			(at 51.7525 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 41.91 165.735 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 52.07 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4149,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 41.91 161.29 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4158,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 41.91 161.29 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "47µ"
 			(at 33.02 190.4999 0)
 			(effects
 				(font
@@ -4083,7 +4209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.1752 193.04 0)
 			(effects
 				(font
@@ -4127,7 +4253,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 40.64 185.42 0)
+		(at 50.8 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4136,7 +4262,7 @@
 		(fields_autoplaced yes)
 		(uuid "56059bd2-0578-4b08-9af8-6c2e5e72f4c6")
 		(property "Reference" "D4"
-			(at 40.3225 179.07 0)
+			(at 50.4825 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,15 +4270,15 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 40.3225 181.61 0)
+			(at 50.4825 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 40.64 189.865 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4287,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 40.64 185.42 0)
+			(at 50.8 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4296,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 40.64 185.42 0)
+			(at 50.8 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4866,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 43.18 137.16 0)
+		(at 52.07 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4749,7 +4875,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b9f7bd7-4cfd-4a7f-9542-77148f2da89c")
 		(property "Reference" "D2"
-			(at 42.8625 130.81 0)
+			(at 51.7525 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,15 +4883,15 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 42.8625 133.35 0)
+			(at 51.7525 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 43.18 141.605 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 52.07 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +4900,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 43.18 137.16 0)
+			(at 52.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +4909,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 43.18 137.16 0)
+			(at 52.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.56 137.16 90)
+		(at 38.1 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5362,32 +5488,33 @@
 		(fields_autoplaced yes)
 		(uuid "a61b6758-524c-488b-ac52-54b2f9c175a8")
 		(property "Reference" "C20"
-			(at 35.56 129.54 90)
+			(at 41.91 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "47µ"
-			(at 35.56 132.08 90)
+		(property "Value" "220µ"
+			(at 41.91 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
-			(at 39.37 136.1948 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+			(at 37.1348 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 137.16 0)
+			(at 38.1 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5523,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 35.56 137.16 0)
+			(at 38.1 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 33.02 185.42 90)
+		(at 38.1 189.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5768,23 +5895,25 @@
 		(fields_autoplaced yes)
 		(uuid "b3fc01e5-6b35-4e69-ad9e-b9f26b0e5860")
 		(property "Reference" "C24"
-			(at 33.02 177.8 90)
+			(at 41.91 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "47µ"
-			(at 33.02 180.34 90)
+		(property "Value" "220µ"
+			(at 41.91 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
-			(at 36.83 184.4548 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+			(at 37.1348 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 185.42 0)
+			(at 38.1 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5931,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 33.02 185.42 0)
+			(at 38.1 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +6041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "47µ"
 			(at 34.29 166.3699 0)
 			(effects
 				(font
@@ -5921,7 +6050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.4452 168.91 0)
 			(effects
 				(font
@@ -6301,7 +6430,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.29 161.29 90)
+		(at 38.1 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6310,23 +6439,25 @@
 		(fields_autoplaced yes)
 		(uuid "e9489d06-3746-4d28-83d3-68e12451fc5f")
 		(property "Reference" "C22"
-			(at 34.29 153.67 90)
+			(at 41.91 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "47µ"
-			(at 34.29 156.21 90)
+		(property "Value" "220µ"
+			(at 41.91 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
-			(at 38.1 160.3248 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+			(at 37.1348 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 161.29 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6475,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 34.29 161.29 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6579,7 @@
 		(dnp no)
 		(uuid "f286da2d-923b-49f3-b208-91c9bc53fb0f")
 		(property "Reference" "C19"
-			(at 40.894 140.462 0)
+			(at 49.784 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,8 +6587,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 38.862 143.51 0)
+		(property "Value" "47µ"
+			(at 22.098 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 32.7152 144.78 0)
 			(effects
 				(font
