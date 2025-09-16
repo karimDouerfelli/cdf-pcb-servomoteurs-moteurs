@@ -1,4 +1,11 @@
-26476407551811766
+26488711122063916
+430152050826
+430152050826
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,13 @@ audio belton reverb
 0
 7
 7
+BU33SD5WG-TR
+SOT95P280X125-5N
+<b>BD45232G-TR-SSOP5</b><br>
+
+0
+5
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -61242,6 +61256,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EEUFS1K221LB
+CAPPRD500W60D1000H2500
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -68956,6 +68977,13 @@ solder jumper open
 0
 3
 3
+KF301-2P
+HANDSON_KF301-2P
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -73030,6 +73058,20 @@ threaded screw
 0
 4
 1
+NC7WZ241K8X
+COPIE-8_2x3.1mm_P0.8mm
+AMS  OLGA, 8 Pin (https://ams.com/documents/20143/36005/AS7341_DS000504_3-00.pdf/#page=63)
+AMS OLGA NoLead
+0
+8
+8
+NC7WZ241K8X
+UQFN8 1.6X1.6, 0.5P
+
+
+0
+8
+8
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -105601,3 +105643,10 @@ Varistor VF
 0
 2
 2
+switch_472121010111
+472121010111
+
+
+0
+3
+3

@@ -463,6 +463,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
@@ -2050,12 +2211,6 @@
 		(uuid "15d1b7f3-5959-4b6f-97c5-45c4257e2dd5")
 	)
 	(junction
-		(at 38.1 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bf23d41-f65c-4c2a-9952-86ddd10777b5")
-	)
-	(junction
 		(at 118.11 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2131,19 +2286,19 @@
 		(at 38.1 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9dfd3fc2-ac78-4423-ae34-f9a203809ca9")
-	)
-	(junction
-		(at 38.1 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a20ae3d1-2660-4632-8c3d-a987ed605f41")
+		(uuid "a05512a1-c76b-47bd-bb13-08be815c13ce")
 	)
 	(junction
 		(at 30.48 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b34b394c-3c10-472f-8daf-fce875d8f39e")
+	)
+	(junction
+		(at 38.1 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55b07c9-c3a1-46de-b5cd-b8fd97b77606")
 	)
 	(junction
 		(at 29.21 185.42)
@@ -2156,6 +2311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8d9d54c-2a47-45d1-b269-40913ba3681e")
+	)
+	(junction
+		(at 38.1 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed34eaf8-6280-40f0-a678-9f750b8ec863")
 	)
 	(junction
 		(at 114.3 133.35)
@@ -2192,16 +2353,6 @@
 			(type default)
 		)
 		(uuid "1d14ec7d-5358-44cb-83eb-c861d230ccd5")
-	)
-	(wire
-		(pts
-			(xy 38.1 161.29) (xy 48.26 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa64f60-9530-425b-a53a-bd1f5f26a05a")
 	)
 	(wire
 		(pts
@@ -2295,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 185.42) (xy 46.99 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3e484c-12a7-49b8-95e3-e752e3a766ca")
+	)
+	(wire
+		(pts
 			(xy 118.11 133.35) (xy 128.27 133.35)
 		)
 		(stroke
@@ -2322,6 +2483,26 @@
 			(type default)
 		)
 		(uuid "656fd8f0-2e4b-4f96-9f45-7068443f401b")
+	)
+	(wire
+		(pts
+			(xy 38.1 137.16) (xy 48.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668dbbf6-0da7-4a0d-80c8-40ccf8f3daec")
+	)
+	(wire
+		(pts
+			(xy 38.1 161.29) (xy 48.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712d6ebc-2298-4a1c-8add-ad7fc42dac89")
 	)
 	(wire
 		(pts
@@ -2535,13 +2716,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 185.42) (xy 46.99 185.42)
+			(xy 29.21 134.62) (xy 27.94 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6a424e7-00ed-4fe5-a19c-60eed7c5230a")
+		(uuid "c5cad61e-30a9-4d33-bd76-44a22c279a72")
 	)
 	(wire
 		(pts
@@ -2562,16 +2743,6 @@
 			(type default)
 		)
 		(uuid "dea63dc4-3ce7-4a51-b4a5-5d864fba3ab8")
-	)
-	(wire
-		(pts
-			(xy 38.1 137.16) (xy 48.26 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e22fb566-188e-48a2-989d-ab8f2bd7e965")
 	)
 	(wire
 		(pts
@@ -2831,7 +3002,7 @@
 	)
 	(global_label "PWM_UART1"
 		(shape input)
-		(at 27.94 134.62 90)
+		(at 29.21 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2841,7 +3012,7 @@
 		)
 		(uuid "5d1aa48a-5d66-4a04-9ccd-d64a5607df19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 120.6282 90)
+			(at 29.21 120.6282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 21.59 161.29 0)
 			(effects
 				(font
@@ -3521,7 +3692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 20.32 185.42 0)
 			(effects
 				(font
@@ -4189,10 +4360,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5044ca6a-dbc6-4043-aab6-52f6d3414dd1")
 		(property "Reference" "C23"
-			(at 33.02 187.9599 0)
+			(at 29.972 187.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,8 +4370,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47µ"
-			(at 33.02 190.4999 0)
+		(property "Value" "0.1µ"
+			(at 29.464 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 22.86 137.16 0)
 			(effects
 				(font
@@ -5368,7 +5538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 127 102.87 0)
 			(effects
 				(font
@@ -5478,8 +5648,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 38.1 140.97 180)
+		(lib_id "Device:C_Polarized")
+		(at 38.1 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5488,29 +5658,30 @@
 		(fields_autoplaced yes)
 		(uuid "a61b6758-524c-488b-ac52-54b2f9c175a8")
 		(property "Reference" "C20"
-			(at 41.91 139.6999 0)
+			(at 41.91 138.8109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "220µ"
-			(at 41.91 142.2399 0)
+			(at 41.91 141.3509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 37.1348 137.16 0)
+		(property "Footprint" "EEUFS1K221LB:CAPPRD500W60D1000H2500"
+			(at 39.0652 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -5522,7 +5693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -5640,7 +5811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 127 92.71 0)
 			(effects
 				(font
@@ -5885,8 +6056,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 38.1 189.23 180)
+		(lib_id "Device:C_Polarized")
+		(at 38.1 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5895,25 +6066,25 @@
 		(fields_autoplaced yes)
 		(uuid "b3fc01e5-6b35-4e69-ad9e-b9f26b0e5860")
 		(property "Reference" "C24"
-			(at 41.91 187.9599 0)
+			(at 41.91 187.0709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "220µ"
-			(at 41.91 190.4999 0)
+			(at 41.91 189.6109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 37.1348 185.42 0)
+		(property "Footprint" "EEUFS1K221LB:CAPPRD500W60D1000H2500"
+			(at 39.0652 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +6101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 38.1 189.23 0)
 			(effects
 				(font
@@ -6041,7 +6212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47µ"
+		(property "Value" "0.1µ"
 			(at 34.29 166.3699 0)
 			(effects
 				(font
@@ -6429,8 +6600,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 38.1 165.1 180)
+		(lib_id "Device:C_Polarized")
+		(at 38.1 165.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6439,7 +6611,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9489d06-3746-4d28-83d3-68e12451fc5f")
 		(property "Reference" "C22"
-			(at 41.91 163.8299 0)
+			(at 41.91 162.9409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6620,7 @@
 			)
 		)
 		(property "Value" "220µ"
-			(at 41.91 166.3699 0)
+			(at 41.91 165.4809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,8 +6628,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 37.1348 161.29 0)
+		(property "Footprint" "EEUFS1K221LB:CAPPRD500W60D1000H2500"
+			(at 37.1348 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 38.1 165.1 0)
 			(effects
 				(font
@@ -6587,7 +6759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47µ"
+		(property "Value" "0µ1"
 			(at 22.098 143.764 0)
 			(effects
 				(font
